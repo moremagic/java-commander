@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT Task (DBConfig|Command)*>
+
+<!ELEMENT DBConfig EMPTY>
+<!ATTLIST DBConfig connection CDATA #REQUIRED>
+<!ATTLIST DBConfig user CDATA #REQUIRED>
+<!ATTLIST DBConfig pass CDATA #REQUIRED>
+
+<!ELEMENT Command (Argument*)>
+<!ATTLIST Command class CDATA #REQUIRED>
+
+<!ELEMENT Argument (#PCDATA)>
+<!ATTLIST Argument class CDATA #REQUIRED>
+

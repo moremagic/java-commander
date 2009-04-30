@@ -1,0 +1,85 @@
+2009/04/30 22:15:35 commander.parser.commanderParser parse
+���: XML��͊J�n
+2009/04/30 22:15:35 commander.parser.commanderParser parse
+�ڍ׃��x�� (��): ���탂�[�h�ł̃p�[�X��s���܂��B
+���탂�[�h�ł̃p�[�X��DTD�������𖳎����܂���B
+2009/04/30 22:15:35 commander.parser.commanderParser startDocument
+�ڍ׃��x�� (��): startDocument
+2009/04/30 22:15:35 commander.parser.commanderParser startElement
+�ڍ׃��x�� (��): startElement:Task
+2009/04/30 22:15:35 commander.parser.commanderParser startElement
+�ڍ׃��x�� (��): startElement:DBConfig
+2009/04/30 22:15:35 commander.core.SQLTaskManager addCommand
+���: �R�}���h�ǉAFcommander.core.DbConfCommand@209f4e
+2009/04/30 22:15:35 commander.parser.commanderParser endElement
+�ڍ׃��x�� (��): endElement:DBConfig
+2009/04/30 22:15:35 commander.parser.commanderParser viewAttrStack
+�ڍ׃��x�� (��): 	connection=jdbc:oracle:thin:@192.168.1.226:1521:ORCL
+2009/04/30 22:15:35 commander.parser.commanderParser viewAttrStack
+�ڍ׃��x�� (��): 	user=chancelab
+2009/04/30 22:15:35 commander.parser.commanderParser viewAttrStack
+�ڍ׃��x�� (��): 	pass=chancelab
+2009/04/30 22:15:35 commander.parser.commanderParser viewAttrStack
+�ڍ׃��x�� (��): 	---------
+2009/04/30 22:15:35 commander.parser.commanderParser startElement
+�ڍ׃��x�� (��): startElement:Command
+2009/04/30 22:15:35 commander.parser.commanderParser startElement
+�ڍ׃��x�� (��): startElement:Argument
+2009/04/30 22:15:35 commander.parser.commanderParser endElement
+�ڍ׃��x�� (��): endElement:Argument
+2009/04/30 22:15:35 commander.parser.commanderParser viewAttrStack
+�ڍ׃��x�� (��): 	class=commander.command.TableDeleteCommand
+2009/04/30 22:15:35 commander.parser.commanderParser viewAttrStack
+�ڍ׃��x�� (��): 	---------
+2009/04/30 22:15:35 commander.parser.commanderParser viewAttrStack
+�ڍ׃��x�� (��): 	class=java.lang.String
+2009/04/30 22:15:35 commander.parser.commanderParser viewAttrStack
+�ڍ׃��x�� (��): 	---------
+2009/04/30 22:15:35 commander.parser.commanderParser endElement
+�ڍ׃��x�� (��): endElement:Command
+2009/04/30 22:15:35 commander.parser.commanderParser viewAttrStack
+�ڍ׃��x�� (��): 	class=commander.command.TableDeleteCommand
+2009/04/30 22:15:35 commander.parser.commanderParser viewAttrStack
+�ڍ׃��x�� (��): 	---------
+2009/04/30 22:15:35 commander.core.SQLTaskManager addCommand
+���: �R�}���h�ǉAFcommander.command.TableDeleteCommand:�e�[�u���f�[�^��폜���܂��B
+2009/04/30 22:15:35 commander.parser.commanderParser startElement
+�ڍ׃��x�� (��): startElement:Command
+2009/04/30 22:15:35 commander.parser.commanderParser startElement
+�ڍ׃��x�� (��): startElement:Argument
+2009/04/30 22:15:35 commander.parser.commanderParser endElement
+�ڍ׃��x�� (��): endElement:Argument
+2009/04/30 22:15:35 commander.parser.commanderParser viewAttrStack
+�ڍ׃��x�� (��): 	class=commander.command.TableInsertCommand
+2009/04/30 22:15:35 commander.parser.commanderParser viewAttrStack
+�ڍ׃��x�� (��): 	---------
+2009/04/30 22:15:35 commander.parser.commanderParser viewAttrStack
+�ڍ׃��x�� (��): 	class=java.lang.String
+2009/04/30 22:15:35 commander.parser.commanderParser viewAttrStack
+�ڍ׃��x�� (��): 	---------
+2009/04/30 22:15:35 commander.parser.commanderParser startElement
+�ڍ׃��x�� (��): startElement:Argument
+2009/04/30 22:15:35 commander.parser.commanderParser endElement
+�ڍ׃��x�� (��): endElement:Argument
+2009/04/30 22:15:35 commander.parser.commanderParser viewAttrStack
+�ڍ׃��x�� (��): 	class=commander.command.TableInsertCommand
+2009/04/30 22:15:35 commander.parser.commanderParser viewAttrStack
+�ڍ׃��x�� (��): 	---------
+2009/04/30 22:15:35 commander.parser.commanderParser viewAttrStack
+�ڍ׃��x�� (��): 	class=java.lang.String
+2009/04/30 22:15:35 commander.parser.commanderParser viewAttrStack
+�ڍ׃��x�� (��): 	---------
+2009/04/30 22:15:35 commander.parser.commanderParser endElement
+�ڍ׃��x�� (��): endElement:Command
+2009/04/30 22:15:35 commander.parser.commanderParser viewAttrStack
+�ڍ׃��x�� (��): 	class=commander.command.TableInsertCommand
+2009/04/30 22:15:35 commander.parser.commanderParser viewAttrStack
+�ڍ׃��x�� (��): 	---------
+2009/04/30 22:15:35 commander.core.SQLTaskManager addCommand
+���: �R�}���h�ǉAFcommander.command.TableInsertCommand:�e�[�u����CSV�t�@�C������̃f�[�^��C���T�[�g���܂��B
+2009/04/30 22:15:35 commander.parser.commanderParser endElement
+�ڍ׃��x�� (��): endElement:Task
+2009/04/30 22:15:35 commander.parser.commanderParser endDocument
+�ڍ׃��x�� (��): �h�L�������g�I��
+2009/04/30 22:15:35 commander.parser.commanderParser parse
+���: XML��͏I��

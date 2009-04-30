@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Task SYSTEM "Sample.dtd">
+<Task>
+	<DBConfig connection="jdbc:oracle:thin:@192.168.1.226:1521:ORCL" user="chancelab" pass="chancelab" />
+	
+	<!--
+	<Command class="commander.command.StaffRollCommand" />
+	<Command class="commander.command.TableCreateCommand">
+		<Argument class="java.lang.String">TableName110</Argument>
+		<Argument class="java.lang.String">
+			品番        varchar2(018) primary key,
+			入庫数      number  (009, 0),
+			出庫数      number  (009, 0),
+			受注数      number  (009, 0),
+			更新担当者  char    (005),
+			更新日付    char    (008),
+			更新時間    char    (006)
+		</Argument>
+	</Command>
+	<Command class="commander.command.TableDropCommand">
+		<Argument class="java.lang.String">TableName110</Argument>
+	</Command>
+	<Command class="commander.command.oracle.TablePurgeCommand" />
+	-->
+	
+	<Command class="commander.command.TableDeleteCommand">
+		<Argument class="java.lang.String">TableName99</Argument>
+	</Command>
+	
+	<Command class="commander.command.TableInsertCommand">
+		<Argument class="java.lang.String">TableName99</Argument>
+		<Argument class="java.lang.String">test99.csv</Argument>
+	</Command>
+</Task>

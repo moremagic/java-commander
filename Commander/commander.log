@@ -1,0 +1,85 @@
+2009/04/30 22:26:13 commander.parser.CommanderParser parse
+情報: XML解析開始
+2009/04/30 22:26:13 commander.parser.CommanderParser parse
+詳細レベル (低): 正常モードでのパースを行います。
+正常モードでのパースはDTD整合性を無視しません。
+2009/04/30 22:26:13 commander.parser.CommanderParser startDocument
+詳細レベル (高): startDocument
+2009/04/30 22:26:13 commander.parser.CommanderParser startElement
+詳細レベル (高): startElement:Task
+2009/04/30 22:26:13 commander.parser.CommanderParser startElement
+詳細レベル (高): startElement:DBConfig
+2009/04/30 22:26:13 commander.core.SQLTaskManager addCommand
+情報: コマンド追加：commander.core.DbConfCommand@209f4e
+2009/04/30 22:26:13 commander.parser.CommanderParser endElement
+詳細レベル (高): endElement:DBConfig
+2009/04/30 22:26:13 commander.parser.CommanderParser viewAttrStack
+詳細レベル (高): 	connection=jdbc:oracle:thin:@192.168.1.226:1521:ORCL
+2009/04/30 22:26:13 commander.parser.CommanderParser viewAttrStack
+詳細レベル (高): 	user=chancelab
+2009/04/30 22:26:13 commander.parser.CommanderParser viewAttrStack
+詳細レベル (高): 	pass=chancelab
+2009/04/30 22:26:13 commander.parser.CommanderParser viewAttrStack
+詳細レベル (高): 	---------
+2009/04/30 22:26:13 commander.parser.CommanderParser startElement
+詳細レベル (高): startElement:Command
+2009/04/30 22:26:13 commander.parser.CommanderParser startElement
+詳細レベル (高): startElement:Argument
+2009/04/30 22:26:13 commander.parser.CommanderParser endElement
+詳細レベル (高): endElement:Argument
+2009/04/30 22:26:13 commander.parser.CommanderParser viewAttrStack
+詳細レベル (高): 	class=commander.command.TableDeleteCommand
+2009/04/30 22:26:13 commander.parser.CommanderParser viewAttrStack
+詳細レベル (高): 	---------
+2009/04/30 22:26:13 commander.parser.CommanderParser viewAttrStack
+詳細レベル (高): 	class=java.lang.String
+2009/04/30 22:26:13 commander.parser.CommanderParser viewAttrStack
+詳細レベル (高): 	---------
+2009/04/30 22:26:13 commander.parser.CommanderParser endElement
+詳細レベル (高): endElement:Command
+2009/04/30 22:26:13 commander.parser.CommanderParser viewAttrStack
+詳細レベル (高): 	class=commander.command.TableDeleteCommand
+2009/04/30 22:26:13 commander.parser.CommanderParser viewAttrStack
+詳細レベル (高): 	---------
+2009/04/30 22:26:13 commander.core.SQLTaskManager addCommand
+情報: コマンド追加：commander.command.TableDeleteCommand:テーブルデータを削除します。
+2009/04/30 22:26:13 commander.parser.CommanderParser startElement
+詳細レベル (高): startElement:Command
+2009/04/30 22:26:13 commander.parser.CommanderParser startElement
+詳細レベル (高): startElement:Argument
+2009/04/30 22:26:13 commander.parser.CommanderParser endElement
+詳細レベル (高): endElement:Argument
+2009/04/30 22:26:13 commander.parser.CommanderParser viewAttrStack
+詳細レベル (高): 	class=commander.command.TableInsertCommand
+2009/04/30 22:26:13 commander.parser.CommanderParser viewAttrStack
+詳細レベル (高): 	---------
+2009/04/30 22:26:13 commander.parser.CommanderParser viewAttrStack
+詳細レベル (高): 	class=java.lang.String
+2009/04/30 22:26:13 commander.parser.CommanderParser viewAttrStack
+詳細レベル (高): 	---------
+2009/04/30 22:26:13 commander.parser.CommanderParser startElement
+詳細レベル (高): startElement:Argument
+2009/04/30 22:26:13 commander.parser.CommanderParser endElement
+詳細レベル (高): endElement:Argument
+2009/04/30 22:26:13 commander.parser.CommanderParser viewAttrStack
+詳細レベル (高): 	class=commander.command.TableInsertCommand
+2009/04/30 22:26:13 commander.parser.CommanderParser viewAttrStack
+詳細レベル (高): 	---------
+2009/04/30 22:26:13 commander.parser.CommanderParser viewAttrStack
+詳細レベル (高): 	class=java.lang.String
+2009/04/30 22:26:13 commander.parser.CommanderParser viewAttrStack
+詳細レベル (高): 	---------
+2009/04/30 22:26:13 commander.parser.CommanderParser endElement
+詳細レベル (高): endElement:Command
+2009/04/30 22:26:13 commander.parser.CommanderParser viewAttrStack
+詳細レベル (高): 	class=commander.command.TableInsertCommand
+2009/04/30 22:26:13 commander.parser.CommanderParser viewAttrStack
+詳細レベル (高): 	---------
+2009/04/30 22:26:13 commander.core.SQLTaskManager addCommand
+情報: コマンド追加：commander.command.TableInsertCommand:テーブルにCSVファイルからのデータをインサートします。
+2009/04/30 22:26:13 commander.parser.CommanderParser endElement
+詳細レベル (高): endElement:Task
+2009/04/30 22:26:13 commander.parser.CommanderParser endDocument
+詳細レベル (高): ドキュメント終了
+2009/04/30 22:26:13 commander.parser.CommanderParser parse
+情報: XML解析終了
